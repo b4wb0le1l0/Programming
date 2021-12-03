@@ -1,0 +1,19 @@
+
+javac -cp Pokemon.jar -sourcepath src -d out src/Back.java
+
+cd out
+
+jar -cvfe ../Lab2.jar src.Back * */*
+
+cd ..
+
+java -cp Pokemon.jar:Lab2.jar Back
+
+
+
+
+
+
+
+
+.
