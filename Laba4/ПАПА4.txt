@@ -1,0 +1,6 @@
+
+s329464@helios:/home/s329464/Lab3/3Lab$ javac -d out src/itmo/*.java
+
+s329464@helios:/home/s329464/Lab3/3Lab/out$ jar -cfe lab3.jar itmo.story itmo
+
+s329464@helios:/home/s329464/Lab3/3Lab/out$ java -jar lab3.jar
